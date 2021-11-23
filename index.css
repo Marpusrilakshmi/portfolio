@@ -1,0 +1,427 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEDED;
+}
+
+.header{
+    display: flex;
+background-color:#FBF3E4 ;
+height: 60px;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+ .title{
+    font-weight: bold;
+    color: #105652;
+    /* float: left; */
+    margin-left: 50px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: x-large;
+   
+
+} 
+.nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-size: small;
+}
+.nav ul li{
+    float: left;
+ padding-top: 30px;
+    margin: 0px 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #585858;
+}
+.nav ul li a:hover{
+    color: #FCA738;
+}
+.bluetop{
+background-color: #105652;
+width: 100%;
+height: 350px;
+}
+.description{
+    color:#FCA738;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.job{
+    color: white;
+    padding-left:50px ;
+    font-size: 30px;
+margin-top: 5px;
+}
+.caption{
+    color: white;
+    padding-left: 50px;
+    margin-top: 0;
+font-size: 13px;
+}
+
+.hireButton{
+    background-color: #09BEAD;
+    margin-left: 50px;
+    margin-right: 20px;
+    box-shadow: 0 0 3px 1px #424242;
+}
+
+.button {
+    color: white;
+    border-radius: 8px;
+    padding: 7px;
+    width: 90px;
+    border: none;
+    font-size: 12px;
+    
+}
+.resumeButton{
+    box-shadow:0 0 3px 1px #424242 ;  
+   
+    background-color:#FCA738 ;
+}
+.image1{
+    float: right;
+    margin: 0;
+   
+}
+.about{
+    width: 90%;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
+    height: 400px;
+    color: #105652;
+
+}
+.image2{
+    
+    object-fit: contain;
+}
+.lang{
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 7px 2px #9D9D9D;
+    height: 150px;
+}
+.lang p{
+    padding: 20px;
+}
+.lang img{
+margin: 18px;    
+}
+.aboutme p{
+    font-size: 15px;
+    text-align: justify;
+    margin: 15px;
+}
+.aboutme span{
+    border-bottom: 4px solid #FCA738;
+    font-size: larger;
+    padding: 5px 20px 5px 3px;
+
+}
+.aboutme h3{
+    margin-left: 20px;
+}
+.portheading span{
+   
+    border-bottom: 4px solid #FCA738;
+}
+.portheading{
+    text-align: center;
+    color: #105652;
+font-size: 25px;
+font-weight: 700;
+    margin: 20px;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.same img{
+    border-radius: 10px;
+    margin: 20px;
+}
+.same{
+    width: 300;
+}
+.resumeheading{
+    color: #105652;
+    
+}
+.resumeheading span{
+    border-bottom: 5px solid #FCA738;
+    margin-left: 50%;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+.resume{
+    color: #105652;
+    display: flex;
+    flex-direction: row;
+}
+.flexleft{
+    margin-left: 70px;
+}
+.flexright img{
+margin-left: 250px;
+border-radius: 5px;
+}
+.work,.education{
+    display: flex;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.work1{
+    margin-right: 310px;
+   
+}
+.edu1{
+    margin-right: 220px;
+}
+.similar{
+    color: white;
+    background-color: #FCA738;
+    padding: 10px;
+    border-radius: 15px;
+}
+.work2{
+    margin-top: 10px;
+}
+.side{
+    font-size: 22px;
+}
+i{
+    font-size: 30px;
+    margin: 10px;
+    color: #424242;
+}
+.icons{
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sayheading{
+    color: #105652;
+    text-align: center;
+    margin: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.sayheading span{
+    border-bottom: 5px solid #FCA738 ;
+    padding: 10px 30px 10px 10px;
+}
+.comments{
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    color: #707070;
+  
+}
+.comments img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.comments div{
+    margin: 20px;
+
+    
+}
+.view{
+    width: 100%;
+
+    background-color:#FBF3E4;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    color: #FCA738;
+}
+.view i{
+    color: #FCA738;
+    font-size: 20px;
+
+}
+.lastflex{
+    display: flex;
+    color: #707070;
+    
+}
+.form{
+    background-color:#FBF3E4;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.left{
+    margin-left: 20px;
+    padding: 15px;
+    background-color: white;
+}
+.left p:first-child{
+    color: #105652;
+    font-size: larger;
+    font-weight: bolder;
+}
+input{
+    width: 80%;
+    border: 1px solid #EDEDED;
+    padding: 10px;
+    border-radius: 10px;
+}
+textarea{
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+
+}
+form button{
+    color: white;
+    background-color: #FCA738;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.last{
+    background-color: #FBF3E4;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+@media screen and (min-width:340px) and (max-width:650px)
+{
+    .title {
+        font-size: larger;
+    }
+    .header,.about,.projects,.lastflex,.comments,.work,.education{
+        display: block;
+        margin: 0px;
+    }
+    
+    
+    .form{
+        width: 100%;
+    }
+    .flexright{
+        margin-left: -260px;
+    }
+    .header{
+        margin-top: -20px;
+        width: 100%;
+        margin-left: -10px;
+        position: static;
+        
+    }
+    .header nav ul li{
+        /* display: none; */
+        margin: 0px;
+
+    }
+    .img1{
+        float: left;
+        display: block;
+    }
+.description{
+    clear: left;
+    margin-left: -20px;
+    font-size: 18px;
+    padding-top: 50px;
+    
+}
+.job{
+    padding: 30px;
+    font-size: 18px;
+}
+.bluetop{
+    font-size: 10px;
+    padding-top: 50px;
+    padding-left: -30px;
+    height: 700px;
+    margin: -10px;
+}
+
+
+.about{
+    margin-left: -10px;
+    margin-top: 10px;
+    height: 1050px;
+}
+
+.lang{
+height: 240px;
+}
+.same{
+
+    height: 400px;
+    margin: -25px;
+}
+.resumeheading{
+    margin-left: -100px;
+    margin-bottom: 40px;
+}
+.resume{
+    margin-left: -60px;
+    display: block;
+    
+}
+.work2{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.similar1{
+    width: 100px;
+    margin-left: 180px;
+    margin-top: -300px;
+}
+.similar2{
+margin-top: 10px;
+margin-left: 180px;
+width: 100px;
+}
+.similar3{
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 100px;
+}
+.flexright{
+    margin-left: -200px;
+    margin-top: 25px;
+    float: left;
+}
+.sayheading{
+    
+    font-size: 18px;
+}
+.view{
+    margin-left: -10px;
+}
+
+.lastflex{
+    margin-left: -10px ;
+}
+.left{
+    margin-left: -10px;
+}
+
+
+
+
+
+
+}
